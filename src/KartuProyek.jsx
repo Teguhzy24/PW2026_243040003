@@ -1,13 +1,14 @@
 import React from 'react';
 
+
 function KartuProyek({ judul, deskripsi, teknologi, linkGithub, warna }) {
   return (
     <div
       style={{
-        border: '1px solid #D0D7DE',
+        border: '1px solid #B9D7EA',
         borderRadius: '12px',
         padding: '20px',
-        backgroundColor: '#FFFFFF',
+        backgroundColor: '#F7FBFC',
         boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
         display: 'flex',
         flexDirection: 'column',
@@ -49,7 +50,7 @@ function KartuProyek({ judul, deskripsi, teknologi, linkGithub, warna }) {
           display: 'block',
           textAlign: 'center',
           backgroundColor: '#1B365D',
-          color: '#FFFFFF',
+          color: '#ffffff',
           padding: '10px 16px',
           borderRadius: '6px',
           fontSize: '14px',
@@ -57,9 +58,10 @@ function KartuProyek({ judul, deskripsi, teknologi, linkGithub, warna }) {
           textDecoration: 'none',
         }}
       >
-        Lihat Repositori GitHub
+         GitHub
       </a>
     </div>
+    
   );
 }
 

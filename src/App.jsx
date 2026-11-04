@@ -40,8 +40,8 @@ function App() {
   return (
     <div style={{ maxWidth: '900px', margin: '40px auto', padding: '0 24px', fontFamily: 'Arial, sans-serif' }}>
       <header style={{ textAlign: 'center', marginBottom: '32px' }}>
-        <h1 style={{ color: '#1B365D', margin: '0 0 8px 0' }}>Showcase Portofolio Mini</h1>
-        <p style={{ color: '#666', fontSize: '15px', margin: 0 }}>
+        <h1 style={{ color: '#2200ff', margin: '0 0 8px 0' }}>Showcase Portofolio Mini</h1>
+        <p style={{ color: '#000000', fontSize: '15px', margin: 0 }}>
           Kumpulan proyek yang pernah saya kerjakan
         </p>
       </header>
