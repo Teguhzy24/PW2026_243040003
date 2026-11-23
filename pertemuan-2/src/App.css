@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.wadah {
+  max-width: 520px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+}
+
+.kotak {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.ringkasan {
+  display: flex;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 16px;
+}
+
+.ringkasan div {
+  flex: 1;
+  padding: 12px 16px;
+  border-right: 1px solid #ccc;
+}
+
+.ringkasan div:last-child {
+  border-right: none;
+}
+
+.ringkasan p {
+  margin: 4px 0 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+small {
+  color: #666;
+  font-size: 12px;
+}
+
+.isian {
+  margin-bottom: 10px;
+}
+
+.isian label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 3px;
+}
+
+.isian input,
+.isian select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px;
+  border: 1px solid #aaa;
+  font-size: 14px;
+}
+
+button {
+  padding: 7px 14px;
+  border: 1px solid #555;
+  background: #e6e6e6;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:disabled {
+  color: #999;
+  border-color: #ccc;
+  cursor: not-allowed;
+}
+
+.daftar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.hapus {
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+.hijau { color: #1a7f37; }
+.merah { color: #c0392b; }
+
+.galat {
+  color: #c0392b;
+  font-size: 13px;
+  margin: 4px 0 0;
+}
+
+.kosong {
+  color: #777;
+  margin: 0;
+}
